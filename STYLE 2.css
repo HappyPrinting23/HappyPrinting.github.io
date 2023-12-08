@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(0, 0, 0);
+    text-align:center; 
+    color: rgb(255, 255, 255)
+    font-family: 'Marcellus';
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.intro{
+    background-image: url(
+      Logo Ice Cream.png
+    );
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+}
+.title{
+    text-align: center;
+    color:
+    font-family: ;
+} 
+.column {
+    float: center ;
+    width:32%;
+    padding: 5px;
+}
+.column img:hover {
+    transform: (120%);
+}
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+}
+hr.solid {
+    border: 1px solid #555;
+  }
+a img {
+  border: 0 none;
+}
+.image-link {
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: #fff;
+}
+.image-link:hover {
+  text-decoration: none;
+  color: ;
+}
